@@ -1,0 +1,8 @@
+a = "hello, world"
+x = 34
+y = 96
+
+print """
+a = %(a)s
+x,y = (%(x)s,%(y)s)
+""" % vars() 
